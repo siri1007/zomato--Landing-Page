@@ -1,0 +1,173 @@
+@media only screen and (width<= 600px) {
+  header {
+    width: auto;
+  }
+  .list {
+    width: max-content;
+  }
+
+  .list ul {
+    justify-content: flex-start;
+  }
+
+  .list ul li {
+    padding: 30px 5px;
+  }
+
+  .list ul li a {
+    font-size: 15px;
+
+    margin-left: 5px;
+  }
+
+  .content .zomatao-logo {
+    max-width: auto;
+  }
+
+  .content h1 {
+    max-width: 300px;
+
+    left: 150px;
+  }
+
+  .heading {
+    max-width: 500px;
+    font-size: 17px;
+  }
+
+  .para {
+    max-width: 500px;
+
+    margin: 40px 0px;
+  }
+
+  .para p {
+    text-align: center;
+
+    font-size: 1rem;
+  }
+
+  .banner img {
+    max-width: 600px;
+    object-fit: cover;
+  }
+
+  .content2 {
+    height: auto;
+    width: auto;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .boxes {
+    box-sizing: inherit;
+    max-width: 500px;
+    margin: 30px 0;
+  }
+
+  .boxes a {
+    padding: 30px 0;
+
+    font-size: 1rem;
+  }
+
+  .footer {
+    width: auto;
+  }
+
+  .footer-content {
+    width: auto;
+  }
+
+  .footer-content .box1 {
+    height: auto;
+  }
+
+  .box1 h6 {
+    font-size: 0.79rem;
+  }
+
+  .box1 p {
+    font-size: 0.9rem;
+  }
+}
+
+/*  */
+
+@media (width<=400px), (width=320px) {
+  .zomatao-logo img {
+    margin-left: 150px;
+  }
+
+  .content h1 {
+    position: relative;
+
+    font-size: 15px;
+    padding: auto;
+  }
+
+  .mainfooter {
+    margin: 0;
+    /* border: 2px solid red; */
+    width: 600px;
+  }
+
+  .footer {
+    max-width: 400px;
+  }
+
+  .box1 p {
+    font-size: 0.6rem;
+  }
+
+  .footer-content .box1 {
+    margin: 40px 20px;
+  }
+
+  .footer-content .box1 {
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+}
+
+@media (width>=700), (width>=800) {
+  .zomatao-logo img {
+    margin-left: 50px;
+  }
+
+  .content h1 {
+    font-size: 25px;
+    max-width: auto;
+  }
+}
+
+@media only screen and (width=992px) {
+  .list ul {
+    justify-content: flex-start;
+  }
+
+  .list ul li {
+    padding: 40px 5px;
+  }
+
+  .list ul li a {
+    /* font-size: 25px; */
+
+    margin-left: 30px;
+  }
+
+  .mainfooter {
+    margin: 0;
+    /* border: 2px solid red; */
+    width: 900px;
+  }
+}
+
+@media only screen and (width>=1488px) {
+  .list ul {
+    justify-content: flex-end;
+  }
+}
